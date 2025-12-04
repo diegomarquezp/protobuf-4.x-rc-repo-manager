@@ -49,21 +49,6 @@ Use "repo-manager [command] --help" for more information about a command.
 
 Based on our setup, here is the recommended sequence of commands to prepare the repositories for the release candidate.
 
-```mermaid
-graph TD
-    A[Start] --> B("1. Clone Repositories\n`./repo-manager clone`");
-    B --> C("2. Check Branches\n`./repo-manager check-branch`");
-    C --> D("3. Update Release Please Config\n`./repo-manager update-release-please`");
-    D --> E("4. Add Repositories as Submodules\n`./repo-manager add-submodules`");
-    E --> F("5. Commit & Push Changes\n- git add .\n- git commit -m \"feat: configure repos for rc release\"\n- git push");
-    F --> G[End];
-
-    style B fill:#d4edda,stroke:#c3e6cb
-    style C fill:#d4edda,stroke:#c3e6cb
-    style D fill:#d4edda,stroke:#c3e6cb
-    style E fill:#d4edda,stroke:#c3e6cb
-    style F fill:#d4edda,stroke:#c3e6cb
-```
 
 ### Step-by-step Guide
 
