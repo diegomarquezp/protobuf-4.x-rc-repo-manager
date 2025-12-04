@@ -1,0 +1,76 @@
+[submodule "java-shared-config"]
+	path = java-shared-config
+	url = https://github.com/googleapis/java-shared-config.git
+	branch = protobuf-4.x-rc
+[submodule "google-auth-library-java"]
+	path = google-auth-library-java
+	url = https://github.com/googleapis/google-auth-library-java.git
+	branch = protobuf-4.x-rc
+[submodule "google-http-java-client"]
+	path = google-http-java-client
+	url = https://github.com/googleapis/google-http-java-client.git
+	branch = protobuf-4.x-rc
+[submodule "sdk-platform-java"]
+	path = sdk-platform-java
+	url = https://github.com/googleapis/sdk-platform-java.git
+	branch = protobuf-4.x-rc
+[submodule "google-cloud-java"]
+	path = google-cloud-java
+	url = https://github.com/googleapis/google-cloud-java.git
+	branch = protobuf-4.x-rc
+[submodule "java-bigtable"]
+	path = java-bigtable
+	url = https://github.com/googleapis/java-bigtable.git
+	branch = protobuf-4.x-rc
+[submodule "java-bigquery"]
+	path = java-bigquery
+	url = https://github.com/googleapis/java-bigquery.git
+	branch = protobuf-4.x-rc
+[submodule "java-bigquerystorage"]
+	path = java-bigquerystorage
+	url = https://github.com/googleapis/java-bigquerystorage.git
+	branch = protobuf-4.x-rc
+[submodule "java-datastore"]
+	path = java-datastore
+	url = https://github.com/googleapis/java-datastore.git
+	branch = protobuf-4.x-rc
+[submodule "java-firestore"]
+	path = java-firestore
+	url = https://github.com/googleapis/java-firestore.git
+	branch = protobuf-4.x-rc
+[submodule "java-logging"]
+	path = java-logging
+	url = https://github.com/googleapis/java-logging.git
+	branch = protobuf-4.x-rc
+[submodule "java-logging-logback"]
+	path = java-logging-logback
+	url = https://github.com/googleapis/java-logging-logback.git
+	branch = protobuf-4.x-rc
+[submodule "java-pubsub"]
+	path = java-pubsub
+	url = https://github.com/googleapis/java-pubsub.git
+	branch = protobuf-4.x-rc
+[submodule "java-spanner"]
+	path = java-spanner
+	url = https://github.com/googleapis/java-spanner.git
+	branch = protobuf-4.x-rc
+[submodule "java-spanner-jdbc"]
+	path = java-spanner-jdbc
+	url = https://github.com/googleapis/java-spanner-jdbc.git
+	branch = protobuf-4.x-rc
+[submodule "java-storage"]
+	path = java-storage
+	url = https://github.com/googleapis/java-storage.git
+	branch = protobuf-4.x-rc
+[submodule "java-storage-nio"]
+	path = java-storage-nio
+	url = https://github.com/googleapis/java-storage-nio.git
+	branch = protobuf-4.x-rc
+[submodule "java-cloud-bom"]
+	path = java-cloud-bom
+	url = https://github.com/googleapis/java-cloud-bom.git
+	branch = protobuf-4.x-rc
+[submodule "cloud-opensource-java"]
+	path = cloud-opensource-java
+	url = https://github.com/GoogleCloudPlatform/cloud-opensource-java.git
+	branch = protobuf-4.x-rc
