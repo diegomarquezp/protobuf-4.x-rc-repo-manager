@@ -55,7 +55,7 @@ graph TD
     B --> C("2. Check Branches\n`./repo-manager check-branch`");
     C --> D("3. Update Release Please Config\n`./repo-manager update-release-please`");
     D --> E("4. Add Repositories as Submodules\n`./repo-manager add-submodules`");
-    E --> F("5. Commit & Push Changes\n`git add .`\n`git commit -m \"feat: configure repos for rc release\"`\n`git push`");
+    E --> F("5. Commit & Push Changes\n- git add .\n- git commit -m \"feat: configure repos for rc release\"\n- git push");
     F --> G[End];
 
     style B fill:#d4edda,stroke:#c3e6cb
