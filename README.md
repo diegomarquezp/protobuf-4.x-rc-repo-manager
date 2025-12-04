@@ -51,11 +51,11 @@ Based on our setup, here is the recommended sequence of commands to prepare the 
 
 ```mermaid
 graph TD
-    A[Start] --> B(1. Clone Repositories<br>`./repo-manager clone`);
-    B --> C(2. Check Branches<br>`./repo-manager check-branch`);
-    C --> D(3. Update Release Please Config<br>`./repo-manager update-release-please`);
-    D --> E(4. Add Repositories as Submodules<br>`./repo-manager add-submodules`);
-    E --> F(5. Commit & Push Changes<br>`git add .`<br>`git commit -m "feat: configure repos for rc release"`<br>`git push`);
+    A[Start] --> B("1. Clone Repositories\n`./repo-manager clone`");
+    B --> C("2. Check Branches\n`./repo-manager check-branch`");
+    C --> D("3. Update Release Please Config\n`./repo-manager update-release-please`");
+    D --> E("4. Add Repositories as Submodules\n`./repo-manager add-submodules`");
+    E --> F("5. Commit & Push Changes\n`git add .`\n`git commit -m \"feat: configure repos for rc release\"`\n`git push`");
     F --> G[End];
 
     style B fill:#d4edda,stroke:#c3e6cb
