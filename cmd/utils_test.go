@@ -44,3 +44,20 @@ func TestReadToken(t *testing.T) {
 	assert.Equal(t, token, readToken)
 }
 
+
+func TestGetTokenFromFile(t *testing.T) {
+	// Create a temporary file
+	tmpfile, err := ioutil.TempFile("", "test")
+	assert.NoError(t, err)
+	defer os.Remove(tmpfile.Name())
+
+	// Write a token to the file
+	token := "my-secret-token"
+	_, err = tmpfile.WriteString(token)
+	assert.NoError(t, err)
+
+	// Read the token back
+	getToken, err := GetTokenFromFile(tmpfile.Name())
+	assert.NoError(t, err)
+	assert.Equal(t, token, getToken)
+}
